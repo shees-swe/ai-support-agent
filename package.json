@@ -1,0 +1,1 @@
+{"dependencies":{"concurrently":"^8.2.2"},"name":"ai-support-agent","private":true,"scripts":{"dev":"concurrently -n api,web -c cyan,green \"npm run start --prefix server\" \"npm run dev --prefix client\"","install:all":"npm install && npm install --prefix server && npm install --prefix client"},"version":"1.0.0"}
